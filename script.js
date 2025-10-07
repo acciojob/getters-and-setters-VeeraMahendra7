@@ -7,14 +7,14 @@ class Person {
 	get name(){
 		return this.name;
 	}
-	set name(name){
-		this.name = name;
+	set name(newName){
+		this.name = newName;
 	}
 	get age(){
 		return this.age;
 	}
-	set age(age){
-		this.age = age;
+	set age(newAge){
+		this.age = newAge;
 	}
 }
 
